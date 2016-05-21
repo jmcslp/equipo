@@ -16,7 +16,7 @@ public class CCuenta {
     private String nombre;
     private String cuenta;
     private double saldo;
-    private double tipoInterés;
+    private double tipoInteres;
 
     /* Constructor sin argumentos */
     public CCuenta ()
@@ -28,6 +28,7 @@ public class CCuenta {
         nombre =nom;
         cuenta=cue;
         saldo=sal;
+        tipoInteres=tipo;
     }
    // Método para asignar el nombre del titular de la cuenta
     public void asignarNombre(String nom)
