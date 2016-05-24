@@ -31,14 +31,30 @@ public class CCuenta {
         tipoInteres=tipo;
     }
    // Método para asignar el nombre del titular de la cuenta
-    public void asignarNombre(String nom)
+    public void setNombre(String nom)
     {
         nombre=nom;
     }
     // Método que me devuelve el nombre del titular
-    public String obtenerNombre()
+    public String getNombre()
     {
         return nombre;
+    }
+
+    /**
+     * Establece la cuenta
+     * @param cc 
+     */
+    public void setCuenta (String cc){
+        cuenta = cc;
+    }
+    
+    /**
+     * devuelve el valor de cuenta
+     * @return 
+     */
+    public String getCuenta(){
+        return cuenta;
     }
 
     // Método que me devuelve el saldo disponible en cada momento
