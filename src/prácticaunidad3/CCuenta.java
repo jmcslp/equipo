@@ -27,8 +27,7 @@ public class CCuenta {
     {
         nombre =nom;
         cuenta=cue;
-        saldo=sal;
-        tipoInteres=tipo;
+        saldo=sal;        
     }
    // Método para asignar el nombre del titular de la cuenta
     public void asignarNombre(String nom)
@@ -41,6 +40,7 @@ public class CCuenta {
         return nombre;
     }
 
+    
     // Método que me devuelve el saldo disponible en cada momento
      public double estado ()
     {
