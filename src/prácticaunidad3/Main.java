@@ -36,7 +36,7 @@ public class Main {
             System.out.print("Fallo al ingresar");
         }
         saldoActual = miCuenta.estado();
-        System.out.println("El saldo actual es"+ saldoActual );
+        System.out.println("El saldo actual es "+ saldoActual );
     }
 
 }
