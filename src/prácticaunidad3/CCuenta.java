@@ -11,7 +11,6 @@ package prácticaunidad3;
  */
 public class CCuenta {
 
-
     // Propiedades de la Clase Cuenta
     private String nombre;
     private String cuenta;
@@ -27,7 +26,8 @@ public class CCuenta {
     {
         nombre =nom;
         cuenta=cue;
-        saldo=sal;        
+        saldo=sal;
+        tipoInteres = tipo;
     }
    // Método para asignar el nombre del titular de la cuenta
     public void asignarNombre(String nom)
